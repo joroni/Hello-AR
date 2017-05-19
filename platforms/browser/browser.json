@@ -7,15 +7,56 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "com.ezartech.ezar.facedetector": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        },
+        "com.ezartech.ezar.flashlight": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        },
+        "com.ezartech.ezar.snapshot": {
             "PACKAGE_NAME": "com.ezartech.demo.helloezar"
         },
         "com.ezartech.ezar.videooverlay": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ezartech.demo.helloezar"
         }
     },
     "dependent_plugins": {},
     "modules": [
+        {
+            "file": "plugins/com.ezartech.ezar.facedetector/www/FaceInfo.js",
+            "id": "com.ezartech.ezar.facedetector.FaceInfo",
+            "pluginId": "com.ezartech.ezar.facedetector",
+            "clobbers": [
+                "FaceInfo"
+            ]
+        },
+        {
+            "file": "plugins/com.ezartech.ezar.facedetector/www/facedetector.js",
+            "id": "com.ezartech.ezar.facedetector.facedetector",
+            "pluginId": "com.ezartech.ezar.facedetector",
+            "merges": [
+                "ezar"
+            ]
+        },
+        {
+            "file": "plugins/com.ezartech.ezar.flashlight/www/flashlight.js",
+            "id": "com.ezartech.ezar.flashlight.flashlight",
+            "pluginId": "com.ezartech.ezar.flashlight",
+            "merges": [
+                "ezar"
+            ]
+        },
+        {
+            "file": "plugins/com.ezartech.ezar.snapshot/www/snapshot.js",
+            "id": "com.ezartech.ezar.snapshot.snapshot",
+            "pluginId": "com.ezartech.ezar.snapshot",
+            "merges": [
+                "ezar"
+            ]
+        },
         {
             "file": "plugins/com.ezartech.ezar.videooverlay/www/videoOverlay.js",
             "id": "com.ezartech.ezar.videooverlay.videoOverlay",
@@ -34,7 +75,10 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.3.2",
-        "com.ezartech.ezar.videooverlay": "0.2.11"
+        "com.ezartech.ezar.facedetector": "0.2.0",
+        "com.ezartech.ezar.flashlight": "0.2.2",
+        "com.ezartech.ezar.snapshot": "0.2.7",
+        "com.ezartech.ezar.videooverlay": "0.2.11",
+        "cordova-plugin-whitelist": "1.3.2"
     }
 }
