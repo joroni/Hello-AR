@@ -10,7 +10,7 @@
     "com.ezartech.ezar.videooverlay": {
         "source": {
             "type": "registry",
-            "id": "com.ezartech.ezar.videooverlay@~0.2.11"
+            "id": "/com.ezartech.ezar.videooverlay"
         },
         "is_top_level": true,
         "variables": {}

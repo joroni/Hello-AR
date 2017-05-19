@@ -14,5 +14,15 @@
             "PACKAGE_NAME": "com.ezartech.demo.helloezar"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.ezartech.ezar.facedetector": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        },
+        "com.ezartech.ezar.flashlight": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        },
+        "com.ezartech.ezar.snapshot": {
+            "PACKAGE_NAME": "com.ezartech.demo.helloezar"
+        }
+    }
 }
